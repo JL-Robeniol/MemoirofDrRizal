@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lessondg"
+    tools:context=".lesson5">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lesson 5 :"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="MEDICAL STUDIES AT THE UNIVERSITY OF SANTO TOMAS (1877-1882)"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:paddingBottom="20dp"
+                android:textStyle="italic"
+                android:text=" -After finishing the first year of a course in Philosophy and Letters (1877-1878), Rizal transferred to the medical course
+\n-“Don’t send him to Manila again; he knows enough. If he gets to know more, the Spaniards will cut off his head.”- Doña Teodora, vigorously opposed the idea that Rizal pursue higher learning in the university
+\n· April 1877- Rizal who was then nearly 16 years old, matriculated in the University of Santo Tomas, taking the course on Philosophy and Letters because (1) his father like it (2) he was “still uncertain as to what career to pursue”
+\n· Father Pablo Ramon-Rector of Ateneo, who had been good to him during his student days in that college, asking for advice on the choice of a career but unfortunately he was in Mindanao
+\n· It was during the following term (1878-1879) that Rizal, having received the Ateneo Rector’s advice to study medicine
+\n· During Rizal’s first school term in the University of Santo Tomas (1877-1878), Rizal also studied in Ateneo. He took the vocational course leading to the title of perito agrimensor (expert surveyor)
+\n· Rizal excelled in all subjects in the surveying course in Ateneo, obtaining gold medals in agriculture and topography
+\n· November 25, 1881- the title was issued to Rizal for passing the final examination in the surveying course
+\n· Liceo Artistico-Literario (Artistic-Literary Lyceum) of Manila- a society of literary men and artists, held a literary contest in the year 1879
+\n· A La Juventud Filipina (To the Filipino Youth)- Rizal, who was then 18 years old, submitted this poem
+\n-is an inspiring poem of flawless form. Rizal beseeched the Filipino youth to rise from lethargy, to let genius fly swifter than the wind and descend with art and science to break the chains that have long bound the spirit of the people
+\n-this winning poem of Rizal is a classic in Philippine literature for two reasons: (1) it was the great poem in Spanish written by a Filipino, whose merit was recognized by Spanish literary authorities (2) it expressed for the first time the nationalistic concept that the Filipinos, and not the foreigners, were the “fair hope of the Fatherland”
+\n· The Board of Judges, composed of Spaniards, was impressed by Rizal’s poem and gave it the first prize which consisted of a silver pen, feather-shaped and decorated with a gold ribbon
+\n· El Consejo de los Dioses (The Councils of the Gods)- an allegorical drama written by Rizal which he entered in the literary contest of Artistic-Literary Lyceum in 1880 to commemorate the fourth centennial of the death of Cervantes
+\n-was a literary masterpiece based on the Greek classics
+\n· The prize was awarded to Rizal, a gold ring on which was engraved the bust of Cervantes
+\n· D.N. del Puzo- a Spanish writer, who won the second prize
+\n· Junto al Pasig (Beside the Pasig)- a zarzuela which was staged by the Ateneans on December 8, 1880, on the occasion of the annual celebration of the Feats Day of the Immaculate Conception, Patroness of the Ateneo
+\n- Rizal wrote it as President of the Academy of Spanish Literature in Ateneo
+\n· A Filipinas- a sonnet written by Rizal for the album of the Society of Sculptors; in this sonnet, he urged all Filipino artists to glorify the Philippines
+\n· Abd-el-Azis y Mahoma- Rizal composed a poem in 1879 which was declaimed by an Atenean, Manuel Fernandez, on the night of December 8, 1879, in honor of the Ateneo’s Patroness
+\n· Al M.R.P. Pablo Ramon- Rizal composed a poem in 1881, as an expression of affection to Father Pablo Ramon, the Ateneo rector, who had been so kind and helpful to him
+\n· Vicenta Ybardolaza- a pretty girl colegiala who skillfully played the harp at the Regalado home, whom Rizal was infatuated in Pakil
+\n· Rizal mentioned Turumba (wherein the people dancing in the streets during the procession in honor of the miraculous Birhen Maria de los Dolores) in Chapter VI of Noli Me Tangere and Pagsanjan Falls in his travel diary (united States—Saturday, May 12, 1888), where he said that Niagara Falls was the “greatest cascades I ever saw” but “not so beautiful nor fine as the falls at Los Baños, Pagsanjan”
+\n· Compañerismo (Comradeship)- Rizal founded a secret society of Filipino students in University of Santo Tomas in 1880
+\n· Companions of Jehu- members of the society whose after the valiant Hebrew general
+\n· Galicano Apacible-Rizal’s cousin from Batangas who is the secretary of the society
+
+\n\nUNHAPPY DAYS AT THE UST
+\n-Rizal found the atmosphere at the University of Santo Tomas suffocating to his sensitive spirit. He was unhappy at this Dominican institution of higher learning because (1) the Dominican professors were hostile to him (2) the Filipino students
+\nwere racially discriminated against by the Spaniards (3) the method of instruction was obsolete and repressive
+\n-In Rizal’s novel, El Filibusterismo, he described how the Filipino students were humiliated and insulted by their Dominican professors and how backward the method of instruction was, especially in the teaching of the natural sciences. He related in Chapter XIII, “The Class in Physics”"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/menu5"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:text="Lesson"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/quiz5"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:paddingLeft="10dp"
+                    android:text="Quiz"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

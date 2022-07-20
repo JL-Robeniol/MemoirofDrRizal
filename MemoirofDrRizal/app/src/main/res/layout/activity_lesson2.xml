@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lessondg"
+    tools:context=".lesson2">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lesson 2 :"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rizal Family"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@color/white"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/familytree" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"
+                android:text="Family of Rizal
+\n\n- The Rizal Family was one of Calamba's wealthiest families.
+In Calamba, they were able to construct a big stone mansion.
+\n\n- Being the first to own a carruaje (horse-drawn carriage).
+\n\n- The first to establish a home library (reported to have over 1000 volumes) and educate their children in Manila's universities.
+\n\n- The hero's mother ran a store in town that sold a variety of trade goods.
+
+                \n\nJose Rizal's Parents
+ \n\n- Jose Rizal was the seventh child of Francisco Mercado Rizal and Teodora Alonzo Realonda.
+                \n\n-Francisco (1818-1898), the Hero's Father, was born on May 11, 1818 and died in Manila on January 5, 1898, at the age of 80. He was a well-educated farmer who had studied Latin and Philosophy at Manila's College of San Jose.
+                \n\n- After his mother died when he was a young man, he moved to Calamba and became a tenant-farmer in the Dominican Republic. On June 28, 1848, he married Teodora Alonzo Realonda, a college-educated Manilena.
+                \n\n- Jose Rizal referred to his father as 'a model of fathers.'
+                \n\n-The Hero's mother, Teodora (1826-1911), was born on November 8, 1826 in Manila and died on August 16, 1911 at the age of 85.
+                \n\n- A Santa Rosa College graduate, she was a talented woman with a strong sense of culture, business acumen, and literary talent. A religious woman with a good character.
+                \n\nRizal's Children
+                \n\n1. SATURNINA (Saturnina) - (1850-1913). She was the eldest of the Rizal siblings. Manuel T. Hidalgo of Tanawan, Batangas, was her husband.
+\n\n2. PACIANO – (1851-1930). He was Jose Rizal's older brother. Following his younger brother's execution, he joined the revolution and rose to the rank of general. He retired to his farm in Los Baos after the Revolution and lived the life of a Gentleman farmer. He died an old bachelor, despite having a common-law wife.
+\n\n3. NARCISA- (1852-1939). She married Antonio Lopez, a schoolteacher from Morong, Rizal.
+\n\n4. OLYMPIA- (1855-1887). She married Silvestre Ubaldo, a telegraph operator from Manila.
+\n\n5. LUCIA- (1857-1919). Mariano Herbosa of Calamba, Laguna, married her.
+\n\n6. MARIA- (1859-1945). She married Daniel Faustino Cruz of Bian, Laguna.
+\n\n7. JOSE - (1861-1896). He married Josephine Bracken, a lovely Irish woman from Hong Kong.
+\n\n8. CONCEPCION- (1862-1865). She died at the age of three.
+\n\n9. JOSEFA- (1865-1945). She did not marry. She died as an old maid.
+\n\n10. TRINIDAD- (1868-1951). Like Josefa, she died as an old maid.
+\n\n11. SOLEDAD- (1870-1929). She was the youngest and married Pantaleon Quintero of Calamba, Laguna.
+\n\nRizal's Ancestors
+\n\n- Jose Rizal was of mixed origin, like many Filipinos. Negrito, Indonesian, Malaysian, Chinese, Japanese, and Spanish blood streamed through his veins.
+\n\n- Domingo Lamco, Rizal's paternal great grandfather, was a Chinese guy from Chinchey, or (‘China's City Spring.’)
+\n\n- His father and grandfather were also Capitanes of Binan.
+\n\n- Lakan-Dula, the last Malayan King of Tondo, was Rizal's maternal ancestor. Eugenio Ursua, a Japanese immigrant, was a maternal great grandpa.
+\n\n- Jose's mother, Teodora, was a member of a powerful family. Gregorio, Manuel, and Jose, her brothers, were gifted individuals.
+\n\n- Her father, Lorenzo Alberto Alonso, was an engineer who received the prestigious (‘Knight of the Grand Order of Isabela the Catholic’) title from Spain.
+\n\n- Manuel De Quintos, a notable Manila lawyer, was her maternal grandfather.
+\n\n- Cipriano Alonso, her paternal grandfather, was a Capitan of Binan.
+\n\n- Rizal is derived from the Spanish word racial, which meaning (‘fresh pasture’) or (‘green meadow.’)
+"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/menu2"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:text="Lesson"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/quiz2"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:paddingLeft="10dp"
+                    android:text="Quiz"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

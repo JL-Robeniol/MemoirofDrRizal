@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quizlayout">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/lessbth"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_view_list_24" />
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="90dp"
+            android:id="@+id/testnumber"
+            android:layout_gravity="center"
+            android:text="tests"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="90dp"
+            android:id="@+id/timerview"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:text="00sec"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/scorenum"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:text="Score"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/qustion1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qustion1">
+
+
+        <Button
+            android:id="@+id/ansquiz1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bgquizbtn"/>
+        <Button
+            android:id="@+id/ansquiz2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bgquizbtn"/>
+        <Button
+            android:id="@+id/ansquiz3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bgquizbtn"/>
+        <Button
+            android:id="@+id/ansquiz4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/bgquizbtn"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

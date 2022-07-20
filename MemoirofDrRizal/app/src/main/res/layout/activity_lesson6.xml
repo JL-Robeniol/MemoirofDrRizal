@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lessondg"
+    tools:context=".lesson6">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lesson 6 :"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="IN SUNNY SPAIN (1882-1885)"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"
+                android:text="-After finishing the 4th year of the medical course in the University of Santo Tomas, Rizal decided to complete his studies in Spain
+\n-Aside from completing his studies in Spain, Rizal has his “secret mission”—was to observe keenly the life and culture, languages and customs, industries and commerce, and government and laws of the European nations in order to prepare himself in the mighty task of liberating his oppressed people from Spanish tyranny
+\n-This Rizalian secret mission was likewise disclosed by Paciano in his letter to his younger brother dated Manila, May 20, 1892
+\n-Rizal’s departure for Spain was kept secret to avoid detection by the Spanish authorities and the friars
+\n· Jose Mercado- Rizal used this name; a cousin from Biñan
+\n· May 3, 1882- Rizal departed on board the Spanish streamer Salvadora bound for Singapore
+\n\nSINGAPORE
+\n· Donato Lecha- the ship captain from Asturias, Spain befriended Rizal
+\n-Rizal described him as an affable man, “much more refined than his other countrymen and colleagues that I have met.”
+\n· Rizal played chess with his fellow passengers who were much older than he
+\n· May 8, 1882- while the steamer was approaching Singapore, Rizal saw a beautiful island, fascinated by its scenic beauty, he remembered “Talim Island with the Susong Dalaga”
+\n· May 9, 1882- the Salvadora docked at Singapore
+\n· Hotel de la Paz- Rizal registered here and spent two days on a sightseeing soiree of the city, which was a colony of England
+\n\nFROM SINGAPORE TO COLOMBO
+\n· In Singapore, Rizal transferred to another ship Djemnah, a French steamer, which left Singapore for
+\n\nEurope on May 11, 1882
+\n· May 17, 1882- Djemnah reached Point Galle, a seacoast town in southern Ceylon (now Sri Lanka)
+\n· Rizal wrote on his travel diary: “The general appearance of Point Galle is picturesque but lonely and
+quiet and at the same time sad”
+\n· Colombo- capital of Ceylon
+\n-Rizal was enamoured by Colombo because of its scenic beauty and elegant buildings
+\n-“Colombo is more beautiful, smart and elegant than Singapore, Point Galle and Manila”
+\n· For the first time, Rizal sighted the barren coast of Africa, which he called an “inhospitable land but
+famous”
+\n· Aden- city hotter than Manila
+\n-Rizal was amused to see the camels, for the first time
+\n· City of Suez- the Red Sea terminal of the Suez Canal
+\n-Rizal was impressed in the beautiful moonlight which reminded him of Calamba and his family
+\n· Suez Canal- canal which built by Ferdinand de Lesseps (French diplomat-engineer) which was
+inaugurated on November 17, 1869
+\n· Port Said- the Mediterranean terminal of the Suez Canal
+\n\nNAPLES AND MARSEILLES
+\n· June 11, 1882- Rizal reached Naples
+\n-Rizal was pleased on this Italian city because of its business activity, its lively people, and its panoramic beauty
+\n· Night of June 12, 1882- the steamer docked at the French harbor of Marseilles
+\n· Rizal visited the famous Chateau d’If, where Dantes, hero of the Count of Monte Cristo, was imprisoned
+\n· Rizal stayed two and a half days in Marseilles
+\n\nBARCELONA
+\n· Afternoon of May 15, 1882- Rizal left Marseilles by train for the last lap of his trip to Spain
+\n· Rizal crossed the Pyrenees and stopped for a day at the frontier town of Port Bou
+\n· June 16, 1882- Rizal finally reached his destination—Barcelona
+\n· Rizal’s first impression of Barcelona, the greatest city of Cataluña and Spain’s second largest city, was unfavorable
+\n· Las Ramblas- the most famous street in Barcelona
+\n· Amor Patrio (Love of Country)- nationalistic essay, Rizal’s first article written on Spain’s soil
+\n-under his pen-name Laong Laan, appeared in print in Diariong Tagalog on August 20, 1882 -it was published in two texts—Spanish and Tagalog—the Spanish text was the one originally written by Rizal in Barcelona, the tagalog text was a Tagalog translation made by M.H. del Pilar
+\n· Basilio Teodoro Moran- a friend of Rizal in Manila and the publisher of Diariong Tagalog where Rizal
+sent this article
+\n· Diariong Tagalog- the first Manila bilingual newspaper (Spanish and Tagalog)
+\n· Los Viajes (Travels)- Rizal’s second article for Diariong Tagalog
+\n· Revista de Madrid (Review of Madrid)- Rizal’s third article written in Madrid on November 29, 1882 but returned to him because the Diariong Tagalog had ceased publication for lack of funds
+\n· Rizal received sad news about the cholera that was ravaging Manila and the provinces according to
+Paciano’s letter, dated September 15, 1882
+\n· Another sad news from the Philippines was the chatty letter of Chengoy recounting the unhappiness of Leonor Rivera
+\n· In one of his letters (dated May 26, 1882), Paciano advised his younger brother to finish the medical
+course in Madrid
+\n· Rizal left Barcelona in the fall of 1882 and established himself in Madrid, the capital of Spain
+"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/menu6"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:text="Lesson"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/quiz6"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:paddingLeft="10dp"
+                    android:text="Quiz"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

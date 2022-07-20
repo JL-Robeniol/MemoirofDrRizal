@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lessondg"
+    tools:context=".introductionlesson">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lesson 1  :"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Dr. Jose Rizal"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:src="@drawable/rizalimg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="In full, JOSÉ PROTACIO RIZAL MERCADO Y ALONSO REALONDA (born 19 June 1861, Calamba, Philippines- died 30 December 1896, Manila, Philippines), patriot, "
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="physician and man of letters whose life and literary works were an inspiration to the Philippine nationalist movement.\n \n\  He was educated at the Ateneo de Manila and the University of Santo Tomas in Manila. In 1882, he went to study medicine and liberal arts at the University of Madrid. A brilliant student, he soon became the leader of the small community of Filipino students in Spain and committed himself to the reform of Spanish rule in his home country, though he never advocated Philippine independence. The chief enemy of reform, in his eyes, was not Spain, which was going through a profound revolution, but the Franciscan, Augustinian and Dominican friars who held the country in political and economic paralysis."
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n  Rizal was the son of a prosperous landowner and sugar planter of Chinese-Filipino descent on the island of Luzon. His mother, Teodora Alonso, one of the most highly educated women in the Philippines at that time, exerted a powerful influence on his intellectual development.\n\nRizal continued his medical studies in Paris and Heidelberg. In 1886, he published his first novel in Spanish, Noli Me Tangere, a passionate exposure of the evils of the friars rule, comparable in its effect to Harriet Beecher Stowe's Uncle Tom's Cabin. A sequel, El Filibusterismo, 1891, established his reputation as the leading spokesman of the Philippine reform movement. He annotated an edition in 1890 on Antonio Morga's Sucesos de las Islas Filipinas, which showed that the native people of the Philippines had a long history before the coming of the Spaniards."
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n   He became the leader of the Propaganda Movement, contributing numerous articles to its newspaper, La Solidaridad, published in Barcelona. Rizal's political program, as expressed in the newspaper, included integration of the Philippines as a province of Spain, representation in the Cortes (the Spanish parliament), the replacement of the Spanish friars by the Filipino priests, freedom of assembly and expression, and equality of Filipinos and Spaniards before the law.\n \nAgainst the advice of his parents and friends, Rizal returned to the Philippines in 1892. He found a nonviolent reform society, La Liga Filipina, in Manila, and was deported to Dapitan, in northwest Mindanao, an island south of the Philippines. He remained in exile for four years, doing scientific research and founding a school and hospital.n 1896, the Katipunan, a nationalist secret society, launched a revolt against Spain."
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n  Although he had no connections with that organization or any part in the insurrection, Rizal was arrested and tried for sedition by the military. Found guilty, he wa publicly executed by a firing squad in Manila. His martyrdom convinced Filipinos that there was no alternative to independence from Spain. On the eve of his execution, while confined in Fort Santiago, Rizal wrote Mi Ultimo Adios ('My Last Farewell'), a masterpiece of 19th-century Spanish verse."
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/menu1"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:text="Lesson"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/quiz1"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:paddingLeft="10dp"
+                    android:text="Quiz"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

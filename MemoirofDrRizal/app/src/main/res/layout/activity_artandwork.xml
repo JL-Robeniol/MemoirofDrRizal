@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artandwork"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/bg1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="529dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/work1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Work 1 : The Social Cancer (original title: Noli Me Tangere (Touch Me Not))"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/btnround"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+            <Button
+                android:id="@+id/work2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Work 2 : He Reign of Greed
+       Complete English Version of 'El Filibusterismo'"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/btnround"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+            <Button
+                android:id="@+id/work3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Work 3 : Makamisa: Rizal's Third Novel"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/btnround"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+            <Button
+                android:id="@+id/work4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Work 4 : Council of the Gods
+by Jose Protasio Rizal "
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/btnround"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+            <Button
+                android:id="@+id/work5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Work 5 : Junto al Pasig by Dr. Jose Rizal"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/btnround"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Art and Work "
+        android:textSize="50dp"
+        android:paddingTop="70dp"
+        android:paddingLeft="13dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/roundedgetxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

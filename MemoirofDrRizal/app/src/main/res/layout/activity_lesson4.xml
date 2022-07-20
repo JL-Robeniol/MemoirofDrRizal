@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lessondg"
+    tools:context=".lesson4">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lesson 4 :"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SCHOLASTIC TRIUMPHS AT ATENEO DE MANILA (1872-1877)"
+        android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/Theme.AppCompat.NoActionBar"
+                android:textSize="16dp"
+                android:paddingBottom="20dp"
+                android:textStyle="italic"
+                android:text="  \n· Ateneo Municipal- a college under the supervision of the Spanish Jesuits
+\n· Escuela Pia (Charity School)- formerly name of Ateneo, a school for poor boys in Manila which was established by the city government in 1817
+\n· Escuela Pia----> Ateneo Municipal---> Ateneo de Manila
+\n· June 10, 1872- Rizal accompanied by Paciano went to Manila
+\n· Father Magin Ferrando- was the college registrar, refused to admit Rizal in Ateneo for two reasons: (1)he was late for registration (2) he was sickly and undersized for his age
+\n· Manuel Xerez Burgos-because of his intercession, nephew of Father Burgos, Rizal was reluctantly admitted at the Ateneo
+\n· Jose was the first of his family to adopt the surname “Rizal”. He registered under this name at Ateneo because their family name “Mercado” had come under the suspicion of the Spanish authorities
+\n· Rizal was first boarded in a house outside Intramuros, on Caraballo Street. This was owned by a spinster named Titay who owed the Rizal family the amount of 300 pesos
+
+\n\nJESUIT SYSTEM OF EDUCATION
+\n-it trained the character of the student by rigid discipline and religious instructions
+\n-Students were divided into two groups:
+\n· Roman Empire- consisting of internos (boarders); red banner
+\n· Carthaginian Empire- composed of the externos (non-boarders); blue banner
+\n· Emperor- the best student in each “empire”
+\n· Tribune- the second best
+\n· Decurion- the third best
+\n· Centurion-the fourth best
+\n· Stand-bearer- the fifth best
+\n· The Ateneo students in Rizal’s time wore a uniform which consisted of “hemp-fabric trousers” and “striped cotton coat” The coat material was called rayadillo
+
+\n\nFIRST YEAR IN ATENEO (1872-1873)
+\n· Father Jose Bech- Rizal’s first professor in Ateneo whom he described as a “tall thin man, with a body slightly bent forward, a harried walk, an ascetic face, severe and inspired, small deep-sunken eyes, a sharp nose that was almost Greek, and thin lips forming an arc whose ends fell toward the chin
+\n· A Religious picture- Rizal’s first prize for being the brightest pupil in the whole class
+\n· To improve his Spanish, Rizal took private lessons in Santa Isabel College during the noon recesses. He paid three pesos for those extra Spanish lessons
+\n· At the end of the school year in March, 1873, Rizal returned to Calamba for summer vacation
+\n· When the summer vacation ended, Rizal returned to Manila for his second year term in Ateneo. This time he boarded inside Intramuros at No. 6 Magallanes Street. His landlady was an old widow named Doña Pepay
+
+\n\nSECOND YEAR IN ATENEO (1873-1874)
+\n-At the end of the school year, Rizal received excellent grades in all subjects and a gold medal
+\n· The Count of Monte Cristo by Alexander Dumas- the first favorite novel of Rizal which made a deep impression on him
+\n· Universal History by Cesar Cantu- Rizal persuaded his father to buy him this set of historical work that was a great aid in his studies
+\n· Dr. Feodor Jagor- a German scientist-traveler who visited the Philippines in 1859-1860 who wrote Travels in the Philippines
+\n-Rizal was impressed in this book because of (1) Jagor’s keen observations of the defects of Spanish colonization (2)his prophecy that someday Spain would lose the Philippines and that America would come to succeed her as colonizer
+
+\n\nTHIRD YEAR IN ATENEO (1874-1875)
+\n-Rizal grades remained excellent in all subjects but he won only one medal—in Latin
+\n-At the end of the school year (March 1875), Rizal returned to Calamba for the summer vacation. He himself was not impressed by his scholastic work.
+
+\n\nFOURTH YEAR IN ATENEO
+\n· June 16, 1875- Rizal became an interno in the Ateneo
+\n· Padre Francisco de Paula Sanchez- a great educator and scholar, one of Rizal’s professors who inspired him to study harder and to write poetry
+\n-Rizal described this Jesuiot professor as “model of uprightness, earnestness, and love for the advancement of his pupils”
+\n· Rizal topped all his classmates in all subjects and won five medals at the end of the school term.
+
+\n\nLAST YEAR IN ATENEO (1876-1877)
+\n-Rizal’s studies continued to fare well. As a matter-of-fact, he excelled in all subjects. The most brilliant Atenean of his time, he was truly “the pride of the Jesuits”
+\n· March 23, 1877- Commencement Day, Rizal, who was 16 years old, received from his Alma Mater, Ateneo Municipal, the degree of Bachelor of Arts, with highest honors
+\n· Marian Congregation- a religious society wherein Rizal was an active member and later became the secretary
+\n· Rizal cultivated his literary talent under the guidance of Father Sanchez
+\n· Father Jose Vilaclara- advised Rizal to stop communing with the Muse and pay more attention to more practical studies
+\n· Rizal studied painting under the famous Spanish painter, Agustin Saez, and sculpture under Romualdo de Jesus, noted Filipino sculptor
+\n· Rizal carved an image of the Virgin Mary on a piece of batikuling (Philippine hardwood) with his pocket knife
+\n· Father Lleonart- impressed by Rizal’s sculptural talent, requested him to carve for him an image of Sacred Heart of Jesus"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/menu4"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:text="Lesson"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/quiz4"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg2"
+                    android:paddingLeft="10dp"
+                    android:text="Quiz"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

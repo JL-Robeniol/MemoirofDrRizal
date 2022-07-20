@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/bg2.xml" value="0.2425" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/bg3.xml" value="0.2595" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/bg4.xml" value="0.193" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/bg5.xml" value="0.193" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/bgquizbtn.xml" value="0.2645" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/btnround.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/buttonbg.xml" value="0.2425" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/google_background.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/ic_baseline_arrow_left_24.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/ileftarrow.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/drawable/roundedgetxt.xml" value="0.253" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artandwork.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artwork1.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artwork2.xml" value="0.14924863387978143" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artwork3.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artwork4.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_artwork5.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_intro2.xml" value="0.259375" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_introductionlesson.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_introductionlesson2.xml" value="0.264" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_introductionlesson3.xml" value="0.259375" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_introductionlesson4.xml" value="0.23529411764705882" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson2.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson3.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson4.xml" value="0.13052858683926646" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson5.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lesson6.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_lessonlist.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout.xml" value="0.176" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout2.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout3.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout4.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout5.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_quizlayout6.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_score.xml" value="0.264" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/activity_signin.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/content_intro2.xml" value="0.259375" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/fragment_first.xml" value="0.259375" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/fragment_second.xml" value="0.259375" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/layout/showscore.xml" value="0.1" />
+        <entry key="..\:/Users/Laurence/AndroidStudioProjects/MemoirofDrRizal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.148" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
